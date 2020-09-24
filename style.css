@@ -656,12 +656,16 @@ a {
     font-weight: 400;
     color: #575757;
 }
-.col-sm-12 h1{
+.h1white h1{
+    color:white !important
+}
+.h2white h2{
     color:white !important;
+    font-weight: bold;
 }
 
-.bloc-lg .row h2{
-    color:white !important;
+.col-sm-12 h2{
+    color:black !important;
 }
 .container {
     max-width: 1000px;
