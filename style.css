@@ -559,6 +559,9 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
+a:hover{
+    color:black !important;
+}
 
 #lightbox-modal {
     display: flex;
@@ -639,7 +642,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -651,9 +654,15 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
+}
+.col-sm-12 h1{
+    color:white !important;
 }
 
+.bloc-lg .row h2{
+    color:white !important;
+}
 .container {
     max-width: 1000px;
 }
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +711,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+.black{
+    color:black !important;
+}
+.black:hover{
+    color:white !important;
 }
 
 h2 {
@@ -775,7 +790,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color:black!important;
 }
 
 .btn-atomic-tangerine {
